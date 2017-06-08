@@ -108,6 +108,11 @@ NavMeshSettings:
     tileSize: 256
     accuratePlacement: 0
   m_NavMeshData: {fileID: 0}
+--- !u!4 &238899241 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4768777770828690, guid: ae2cd9438bef2c540b09d658dd7edabd,
+    type: 2}
+  m_PrefabInternal: {fileID: 1383341121}
 --- !u!1 &283735348
 GameObject:
   m_ObjectHideFlags: 0
@@ -222,6 +227,17 @@ Prefab:
       propertyPath: firePoint
       value: 
       objectReference: {fileID: 485211451}
+    - target: {fileID: 114999296172350130, guid: ae2cd9438bef2c540b09d658dd7edabd,
+        type: 2}
+      propertyPath: bulletPrefab
+      value: 
+      objectReference: {fileID: 1114500875926168, guid: e2b189150e65c374588b4f825a2af3d0,
+        type: 2}
+    - target: {fileID: 114999296172350130, guid: ae2cd9438bef2c540b09d658dd7edabd,
+        type: 2}
+      propertyPath: partToRotate
+      value: 
+      objectReference: {fileID: 238899241}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ae2cd9438bef2c540b09d658dd7edabd, type: 2}
   m_IsPrefabParent: 0
@@ -234,7 +250,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4356223839223604, guid: 4392fa5be0518cc4b89973c262990c16, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -20.02
+      value: -27.7
       objectReference: {fileID: 0}
     - target: {fileID: 4356223839223604, guid: 4392fa5be0518cc4b89973c262990c16, type: 2}
       propertyPath: m_LocalPosition.y
@@ -242,7 +258,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4356223839223604, guid: 4392fa5be0518cc4b89973c262990c16, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 8.96
+      value: 21.5
       objectReference: {fileID: 0}
     - target: {fileID: 4356223839223604, guid: 4392fa5be0518cc4b89973c262990c16, type: 2}
       propertyPath: m_LocalRotation.x
@@ -394,6 +410,14 @@ Prefab:
     - target: {fileID: 4521441500506714, guid: 1e8d309ab05c0c645ab268b951d63e36, type: 2}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4205198215823928, guid: 1e8d309ab05c0c645ab268b951d63e36, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4205198215823928, guid: 1e8d309ab05c0c645ab268b951d63e36, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 1.643
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1e8d309ab05c0c645ab268b951d63e36, type: 2}
